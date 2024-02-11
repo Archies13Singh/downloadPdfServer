@@ -8,6 +8,6 @@ app.get("/", (req, res) => {
   res.download("./Archies_Resume.pdf");
 });
 
-app.listen(9000, () => {
-  console.log("Starting Server on Port 9000");
+app.listen(4000, () => {
+  console.log("Starting Server on Port 4000");
 });
